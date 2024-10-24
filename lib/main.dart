@@ -17,9 +17,28 @@ class MyApp extends StatelessWidget {
         ),
         home: Scaffold(
           appBar: AppBar(
-            title: const Text('Golden Tests'),
+            title: const Text('Golden Tests Button Colors Demo'),
           ),
-          body: const Text('Flutter Golden Tests'),
+          body: Center(
+            child: ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.purple,
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 50,
+                  vertical: 20,
+                ),
+                textStyle: const TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              onPressed: () {},
+              child: const Text(
+                'Flutter Goldens',
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
+          ),
         ));
   }
 }
