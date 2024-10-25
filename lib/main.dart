@@ -31,7 +31,7 @@ class HomePageButton extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.purple,
+            backgroundColor: Colors.green,
             padding: const EdgeInsets.symmetric(
               horizontal: 50,
               vertical: 20,
