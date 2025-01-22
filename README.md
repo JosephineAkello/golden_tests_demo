@@ -1,4 +1,4 @@
-# golden_test_demo
+# Flutter Golden Tests
 
 Flutter Golden Tests Demo.
 
