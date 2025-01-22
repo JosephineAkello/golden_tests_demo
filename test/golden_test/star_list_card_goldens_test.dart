@@ -33,7 +33,7 @@ void main() {
       // Verify the golden file
       await screenMatchesGolden(
         tester,
-        'star_list_card',
+        'star_list_cards',
         autoHeight: true,
       );
     });

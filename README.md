@@ -1,16 +1,7 @@
 # golden_test_demo
 
-A new Flutter project.
+Flutter Golden Tests Demo.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Follow this article on how to setup golden tests step by step [here.](https://medium.com/@onyangomaureen95/writing-golden-tests-with-flutter-86d9cdd4aa2d)

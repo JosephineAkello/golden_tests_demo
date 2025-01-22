@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:golden_test_demo/star_list_card.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,12 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(
               seedColor: const Color.fromARGB(255, 14, 11, 207)),
           useMaterial3: true,
         ),
-        home: const HomePageButton());
+        home: const StarListCard());
   }
 }
 
@@ -31,7 +33,7 @@ class HomePageButton extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.green,
+            backgroundColor: Colors.red,
             padding: const EdgeInsets.symmetric(
               horizontal: 50,
               vertical: 20,

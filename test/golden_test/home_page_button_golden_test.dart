@@ -7,6 +7,7 @@ void main() {
   testGoldens('HomePageButton has correct background color', (tester) async {
     await tester.pumpWidgetBuilder(
       const MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: Scaffold(
           body: HomePageButton(),
         ),
